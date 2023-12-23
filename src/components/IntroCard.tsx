@@ -6,7 +6,7 @@ export function IntroCard () {
 				<section className="border bg-[#20243C] w-full h-[70vh] rounded-xl p-5 relative flex items-center justify-center">
 					<img src="/src/assets/style1.svg" className="absolute top-0 right-0 p-5"></img>
 					<img src="/src/assets/style2.svg" className="absolute bottom-0 left-0 p-5"></img>
-					<div className="flex flex-col items-center justify-center z-50">
+					<div className="flex flex-col items-center justify-center z-10">
 					<div className="text-white xl:text-4xl text-3xl font-extrabold tracking-wider text-center flex items-center justify-center h-full">
 					Dive into the  Ultimate Online Ping Pong Experience <br/> Landing Teaser
 					</div>

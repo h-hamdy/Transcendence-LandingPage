@@ -1,5 +1,5 @@
 import './App.css'
-// import { Features } from './components/Features'
+import { Features } from './components/Features'
 import { IntroCard } from './components/IntroCard'
 import { NavBar } from './components/NavBar'
 
@@ -9,8 +9,12 @@ function App() {
     <>
 		<div className="p-10 flex flex-col h-screen bg-[#F7F8F9]">
 			<NavBar/>
-			<IntroCard/>
+			<div className='pt-32'>
+				<IntroCard/>
+			</div>
 		</div>
+		<Features/>
+
     </>
   )
 }
