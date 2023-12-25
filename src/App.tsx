@@ -1,7 +1,10 @@
 import './App.css'
+import { Ending } from './components/Ending'
 import { Features } from './components/Features'
 import { IntroCard } from './components/IntroCard'
 import { NavBar } from './components/NavBar'
+import { Team } from './components/Team'
+import { Testimonial } from './components/Testimonial'
 
 function App() {
 
@@ -14,6 +17,9 @@ function App() {
 			</div>
 		</div>
 		<Features/>
+		<Team/>
+		<Testimonial/>
+		<Ending/>
 
     </>
   )

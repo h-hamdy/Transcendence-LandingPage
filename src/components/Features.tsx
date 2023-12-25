@@ -3,8 +3,14 @@ import { FeatureCard } from "./FeatureCard"
 export function Features () {
 	return (
 		<>
-			<div className="h-[800px] w-full p-8 bg-[#20243C]">
-				<div className="text-white xl:text-4xl text-3xl font-extrabold tracking-wider text-center flex  justify-center pt-10">Feature Implemented in this project ...</div>
+
+			<div className="h-[800px] w-full p-4 pt-0 bg-[#20243C]">
+			<div className="flex items-center justify-center pt-10">
+		</div>
+		<div className="flex items-center justify-center">
+			<div className="bg-gray-300 flex items-center justify-center w-[75px] text-xs font-semibold text-[#6961CC] h-[25px] rounded-xl">Features</div>
+		</div>
+				<div className="text-white xl:text-4xl text-3xl font-extrabold tracking-wider text-center flex  justify-center pt-5">Features Implemented in this project ...</div>
 				<div className="text-[#556987] p-5 text-center font-semibold text-base pb-[60px]">Experience a dynamic online ping pong platform with features designed for seamless interaction and entertainment</div>
 				<div className="flex flex-col gap-[30px]">
 
